@@ -1,0 +1,23 @@
+server:
+  port: 8888
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile: default
+    import: file:src/main/resources/shared/config-server.yml
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: docker
+    import: file:/opt/shared/config-server.yml
+
