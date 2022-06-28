@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.radel.core</groupId>
     <artifactId>radel-config-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>radel-config-server</name>
     <description>radel-config-server</description>
     <properties>
@@ -35,9 +35,9 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.radel</groupId>
+            <groupId>com.radel.core</groupId>
             <artifactId>oauth2-resource-server-extension-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
@@ -56,7 +56,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
     <build>
         <plugins>
