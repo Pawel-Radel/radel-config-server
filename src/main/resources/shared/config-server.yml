@@ -33,7 +33,7 @@ spring:
           refresh-rate: 10000
           uri: https://github.com/Pawel-Radel/radel-core-environment-configuration
           username: pawel-radello@wp.pl
-          password: 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
+          password: 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
   security:
     oauth2:
       resourceserver:
@@ -42,10 +42,6 @@ spring:
   config:
     activate:
       on-profile: default
-  boot:
-    admin:
-      client:
-        url: http://${admin.user.name}:${admin.user.password}@localhost:8761/admin
 
 eureka:
   client:
