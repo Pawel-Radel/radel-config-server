@@ -33,12 +33,12 @@ spring:
           refresh-rate: 10000
           uri: https://github.com/Pawel-Radel/radel-core-environment-configuration
           username: pawel-radello@wp.pl
-          password: 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
+          password: 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
   security:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: http://localhost:8080/auth/realms/application-admin/protocol/openid-connect/certs
+          jwk-set-uri: http://localhost:8080/realms/test/protocol/openid-connect/certs
   config:
     activate:
       on-profile: default
